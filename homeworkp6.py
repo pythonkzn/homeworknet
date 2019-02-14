@@ -1,4 +1,3 @@
-import copy
 class Animals:
     weight = 0
     name = ''
@@ -45,7 +44,6 @@ bird_list.append(goose1)
 animal_list.append(goose1)
 
 goose2 = Birds(10,'Гусь','Белый','Га-га', 'False')
-#rec = copy.deepcopy(goose2)
 bird_list.append(goose2)
 animal_list.append(goose2)
 
